@@ -1,2 +1,8 @@
 # Ignore ALL files in the 'design' directory
 design/
+node_modules/
+package-lock.json
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

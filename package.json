@@ -1,0 +1,23 @@
+{
+  "name": "valec",
+  "version": "1.0.0",
+  "description": "Projet web Valec",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/main.scss:./dist/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-pelayo/valec.git"
+  },
+  "author": "Joseph PELAYO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseph-pelayo/valec/issues"
+  },
+  "homepage": "https://github.com/joseph-pelayo/valec#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
