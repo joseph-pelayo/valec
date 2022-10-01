@@ -15,9 +15,20 @@
 }
 
 .svg-icon {
-    width: 30px; 
+    width: 30px;
+    margin-right: 16px;
 }
 
+.btn.recruit-btn {
+    padding: 5px 8.2px;
+    background-color: $btn-bg-color;
+}
+
+.btn.cnx-btn {
+    padding: 5px 10px;
+    background-color: $vivid-burgundy-color;
+    border-color: $vivid-burgundy-color;
+}
 
     
     

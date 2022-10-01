@@ -160,6 +160,18 @@ h1, h2, h3 {
 
 .svg-icon {
   width: 30px;
+  margin-right: 16px;
+}
+
+.btn.recruit-btn {
+  padding: 5px 8.2px;
+  background-color: #00a8ff;
+}
+
+.btn.cnx-btn {
+  padding: 5px 10px;
+  background-color: #a6192e;
+  border-color: #a6192e;
 }
 
 /*# sourceMappingURL=style.css.map */
