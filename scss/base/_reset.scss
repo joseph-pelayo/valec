@@ -4,7 +4,7 @@
 
 /* Switch to border-box model on the root element */
 html {
-    @include box-sizing(border-box);
+    @extend %box-sizing;
 }
 
 /* Make all elements from the DOM inherit from the parent box-sizing */

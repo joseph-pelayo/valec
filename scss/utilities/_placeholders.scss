@@ -1,0 +1,47 @@
+// Display block
+%block-display {
+    display: block;
+    position: relative;
+}
+
+// Display inline block
+%inline-block-display {
+    display: inline-block;
+}
+
+// This placeholder sets box-sizing 
+%box-sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// Flexbox display (Row direction)
+%flex-row-center {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+// Flexbox display (Column direction)
+%flex-col-center {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-space-around {
+    justify-content: space-around;
+}
+
+%flex-space-btwin {
+    justify-content: space-between;
+}
+
+

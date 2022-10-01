@@ -4,7 +4,7 @@
 
 
 .btn {
-    display: inline-block;
+    @extend %flex-row-center;
     font-family: $btn-font-family;
     font-weight: $btn-font-weight;
     line-height: $btn-line-height;
@@ -13,9 +13,6 @@
     @include button-border-variant($btn-border-width, $btn-border-color, $btn-border-radius);
     cursor: pointer;
 }
-
-
-
 
 .svg-icon {
     width: 30px; 

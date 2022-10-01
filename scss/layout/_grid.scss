@@ -1,21 +1,22 @@
-.d-block {
-    @include block;
+.block-rel {
+    @extend %block-display;
 }
 
-.d-flex {
-    @include flexbox;
-
+.flex-rc {
+    @extend %flex-row-center;
 }
 
-.justify-content-between {
-    @include flex-horizontal-alignment(space-between);
+.flex-cc {
+    @extend %flex-col-center;
 }
 
-.align-items-center {
-    @include flex-vertical-alignement(center);
+
+.flex-sa {
+    @extend %flex-space-around;
 }
 
-.space-between {
-    @include flex-horizontal-alignment(space-around);
+.flex-sb {
+    @extend %flex-space-btwin;
 }
+
 

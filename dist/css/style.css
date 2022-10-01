@@ -1,10 +1,41 @@
-/* Switch to border-box model on the root element */
+.block-rel {
+  display: block;
+  position: relative;
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+.btn, .flex-rc {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-cc {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-sa {
+  justify-content: space-around;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+/* Switch to border-box model on the root element */
 /* Make all elements from the DOM inherit from the parent box-sizing */
 *,
 *::before,
@@ -115,30 +146,7 @@ h1, h2, h3 {
   column-gap: 28px;
 }
 
-.d-block {
-  display: block;
-}
-
-.d-flex {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.justify-content-between {
-  justify-content: space-between;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-.space-between {
-  justify-content: space-around;
-}
-
 .btn {
-  display: inline-block;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   line-height: normal;
