@@ -1,0 +1,29 @@
+.header-top-left p {
+    padding: .7rem 0;
+}
+.header-top-right {
+    column-gap: 33px;
+}
+
+.header-top-right a {
+    color: $white-color;
+}
+
+.header-top-right .icon {
+    margin-right: 14px;
+}
+
+.header-top-section {
+    background-color: $purple-blue-color;
+    color: $white-color;
+    font-size: 1.3rem;
+}
+
+.header-top-section a {
+    display: block;
+    padding: 0.7rem 0;
+}
+
+
+
+

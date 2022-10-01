@@ -1,0 +1,66 @@
+// ------------------------------------------------------------------------------------
+// This file contains all Sass variables
+// ------------------------------------------------------------------------------------
+
+
+// ------------------
+// Fonts
+// ------------------
+
+// Font families
+$font-family-base: 'Lato', sans-serif;
+$line-height-base: 1.5;
+
+// Font sizes
+$font-size-html: 62.5%;
+$font-size-base: 1rem;
+
+// Font-weights map
+$font-weights: (
+    "light": 300,
+    "regular": 400,
+    "bold": 700
+) !default;
+
+
+// ------------------
+// Colors
+// ------------------
+
+$light-grey-color: #f4f4f4;
+$black-color: #000000;
+$white-color: #ffffff;
+$purple-blue-color: #7b68ee;
+$zodiac-blue-color: #10224a;
+$romance-color: #00a8ff;
+$vivid-burgundy-color: #a6192e;
+
+
+$body-bg: $light-grey-color;
+$body-color: $black-color;
+
+
+// ------------------
+// Navigation
+// ------------------
+
+$navbar-background: $white-color;
+$navbar-gap: 28px !default;
+$nav-item-vertical-padding: 31.5px;
+$nav-item-horizontal-padding: 15px;
+
+
+// ------------------
+// Buttons
+// ------------------
+ 
+$btn-font-family: $font-family-base;
+$btn-font-weight: 700;
+$btn-line-height: normal;
+$btn-font-size: 1.6rem;
+$btn-font-color: $white-color;
+$btn-bg-color: $romance-color;
+$btn-border-width: 1px;
+$btn-border-color: $romance-color;
+$btn-border-radius: 3px;
+

@@ -1,0 +1,21 @@
+.d-block {
+    @include block;
+}
+
+.d-flex {
+    @include flexbox;
+
+}
+
+.justify-content-between {
+    @include flex-horizontal-alignment(space-between);
+}
+
+.align-items-center {
+    @include flex-vertical-alignement(center);
+}
+
+.space-between {
+    @include flex-horizontal-alignment(space-around);
+}
+

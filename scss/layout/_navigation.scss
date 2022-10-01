@@ -1,0 +1,36 @@
+
+// ------------------
+// Reset
+// ------------------
+
+.navbar-menu,
+.navbar-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu ul {
+    list-style: none;
+}
+
+.navbar-menu li > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-menu li > a {
+    padding: $nav-item-vertical-padding $nav-item-horizontal-padding;
+    font-size: 1.6rem;
+}
+
+.navbar-logo {
+    display: block;
+    width: 225px;
+    padding: 7.5px 0;
+}
+
+.navbar .container {
+    column-gap: 28px;
+}
+

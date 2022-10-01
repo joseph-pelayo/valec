@@ -1,0 +1,25 @@
+html  {
+    font-size: $font-size-html;
+}
+
+body {
+    font-family : $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    background-color: $light-grey-color;
+    color: $black-color;
+}
+
+// ------------------
+// Links
+// ------------------
+
+a {
+    color: $zodiac-blue-color;
+}
+
+
+.icon {
+    font-size: 24px;
+}
+

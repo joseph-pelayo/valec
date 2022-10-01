@@ -1,0 +1,72 @@
+// This mixin sets box-sizing 
+@mixin box-sizing($type) {
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    box-sizing: $type;
+}
+
+// Display block
+@mixin block() {
+    display: block;
+}
+
+// Display inline block
+@mixin inline-block() {
+    display: inline-block;
+}
+
+
+// Flexbox display
+@mixin flexbox() {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Inline flex display
+@mixin inline-flexbox() {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+@mixin flex-direction($direction) {
+    
+    @if $direction == column {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    @else {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@mixin row-reverse() {
+    flex-direction: row-reverse;
+}
+
+@mixin col-reverse() {
+    flex-direction: column-reverse;
+}
+
+@mixin flex-horizontal-alignment($h-alignement) {
+    justify-content: $h-alignement;
+}
+
+@mixin flex-vertical-alignement($v-alignement) {
+    align-items: $v-alignement;
+}
+
+
+// Buttons
+
+@mixin button-color-variant($font-color, $bg-color) {
+    color: $font-color;
+    background-color: $bg-color;
+}
+
+@mixin button-border-variant($border-width, $border-color, $radius) {
+    border: $border-width solid $border-color;
+    border-radius: $radius;
+}
