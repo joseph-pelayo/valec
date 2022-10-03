@@ -56,7 +56,8 @@ ol {
 
 img,
 video {
-  max-width: 100%;
+  display: block;
+  width: 100%;
   height: auto;
 }
 
@@ -146,6 +147,110 @@ h1, h2, h3 {
   column-gap: 28px;
 }
 
+.hero-slide img {
+  height: 53.8rem;
+  object-fit: cover;
+}
+
+.slide-overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 53.8rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+  padding-left: 9rem;
+  padding-top: 12.5rem;
+  row-gap: 3rem;
+  color: #fff;
+}
+
+.slide-content h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.slide-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.slide-buttons {
+  display: flex;
+  column-gap: 50px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  border-radius: 1rem;
+  width: 65px;
+  height: 0.8rem;
+  border: 1px solid #a6192e;
+  background-color: transparent;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+}
+
+.missions-slider-container {
+  background-color: #10224a;
+}
+
+.missions-swiper {
+  padding: 35px 55px;
+  overflow: hidden;
+}
+
+.mission-logo {
+  padding: 23.5px 54.5px;
+}
+
+.mission-logo img {
+  width: 55px;
+}
+
+.mission-slide-card {
+  position: relative;
+  width: 16.4rem;
+  height: 20.8rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  color: #10224a;
+}
+
+.mission-slide-card::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 5.5rem;
+  height: 0.6rem;
+  background-color: #00a8ff;
+  transform: translateX(-50%);
+}
+
+.mission-info {
+  padding: 24px 26.5px;
+}
+
+.mission-info > p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 .btn {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -163,12 +268,12 @@ h1, h2, h3 {
   margin-right: 16px;
 }
 
-.btn.recruit-btn {
+.btn.primary-btn {
   padding: 5px 8.2px;
   background-color: #00a8ff;
 }
 
-.btn.cnx-btn {
+.btn.secondary-btn {
   padding: 5px 10px;
   background-color: #a6192e;
   border-color: #a6192e;

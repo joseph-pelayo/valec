@@ -16,8 +16,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- CSS Styling for the app -->
     <link rel="stylesheet" href="./dist/css/style.css">
+    <!-- Swiper CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 <body>
+    <!-- Homepage - Header -->
     <header class="header-section">
         <div class="header-top-section">
             <!-- Container wrapper-->
@@ -67,7 +70,7 @@
                     </ul>
                 </div>
                 <!-- Recruitment button-->
-                <a href="#" class="btn recruit-btn">
+                <a href="#" class="btn primary-btn">
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <g>
                             <rect x="176.552" y="75.034" style="fill:#464655;" width="17.655" height="44.138"/>
@@ -95,7 +98,7 @@
                     <span>Recrutement</span>
                 </a>
                 <!-- Connexion button-->
-                <a href="#" class="btn cnx-btn">
+                <a href="#" class="btn secondary-btn">
                     <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318.965 318.965">
                         <g>
                             <g>
@@ -169,56 +172,174 @@
         </nav>
     </header>
     <main>
-        <!-- Hero Slider -->
+        <!-- Homepage - Hero Slider -->
         <section class="hero-slider-container">
-            <div class="slides-inner">
-                <ul class="slide-items">
-                    <li class="slide-item">
-                        <h1 class="heading-slide">L'approche coopérative, un savoir-faire de nos collaborateurs en faveur de votre réussite.</h1>
-                        <p>Vivons ensemble l'entreprise avec des solutions d'accompagnement adaptées à vos objectifs.</p>
-                        <!--Info Button-->
-                        <a href="#" class="btn primary-btn">
-                            En savoir plus
-                            <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
-                        </a>
-                        <!-- Contact Button-->
-                        <a href="#" class="btn primary-btn">
-                            Nous contacter
-                            <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
-                        </a>
-                    </li>
-                    <li class="slide-item">
-                        <h1 class="heading-slide">La réglementation sociale évolue sans cesse : déléguez votre gestion des ressources humaines et de la paie.</h1>
-                        <p>Afin de vous consacrer essentiellement au développement de votre chiffre d’affaires, un expert dédié vous guide dans vos démarches.</p>
-                        <!--Info Button-->
-                        <a href="#" class="btn primary-btn">
-                            Découvrir
-                            <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
-                        </a>
-                    </li>
-                    <li class="slide-item">
-                        <h1 class="heading-slide">Pilotez efficacement votre entreprise et gardez le sourire</h1>
-                        <p>Tableaux de bord, comptes de résultat, plan de trésorerie, ... Votre expert comptable vous fournit des indicateurs pertinents pour faciliter votre prise de décisions.</p>
-                        <!--Info Button-->
-                        <a href="#" class="btn primary-btn">
-                            En savoir plus
-                            <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
-                        </a>
-                    </li>
-                </ul>
+            <div id="hero-slider" class="hero-swiper">
+                <!-- Additional wrapper -->
+                <div class="hero-slider-content swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="hero-slide swiper-slide">
+                        <img src="./assets/img/picture/meeting-team.jpg" alt="">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h1 class="heading-slide">L'approche coopérative, un savoir-faire de nos collaborateurs en faveur de votre réussite.</h1>
+                                <p>Vivons ensemble l'entreprise avec des solutions d'accompagnement adaptées à vos objectifs.</p>
+                                <div class="slide-buttons">
+                                    <!--Info Button-->
+                                    <a href="#" class="btn secondary-btn">
+                                        En savoir plus
+                                        <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
+                                    </a>
+                                    <!-- Contact Button-->
+                                    <a href="#" class="btn secondary-btn">
+                                        Nous contacter
+                                        <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end swiper-slide -->
+                    <div class="hero-slide swiper-slide">
+                        <img src="./assets/img/picture/studying-accountant.jpg" alt="">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h1 class="heading-slide">La réglementation sociale évolue sans cesse : déléguez votre gestion des ressources humaines et de la paie.</h1>
+                                <p>Afin de vous consacrer essentiellement au développement de votre chiffre d’affaires, un expert dédié vous guide dans vos démarches.</p>
+                                <div class="slide-buttons">
+                                    <!--Info Button-->
+                                    <a href="#" class="btn secondary-btn">
+                                        Découvrir
+                                        <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end swiper-slide -->
+                    <div class="hero-slide swiper-slide">
+                        <img src="./assets/img/picture/smiling-customer.jpg" alt="">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h1 class="heading-slide">Pilotez efficacement votre entreprise et gardez le sourire</h1>
+                                <p>Tableaux de bord, comptes de résultat, plan de trésorerie, ... Votre expert comptable vous fournit des indicateurs pertinents pour faciliter votre prise de décisions.</p>
+                                <div class="slide-buttons">
+                                    <!--Info Button-->
+                                    <a href="#" class="btn secondary-btn">
+                                        En savoir plus
+                                        <span class="icon icon-btn"><i class="fa-solid fa-chevron-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end swiper-slide -->
+                    <!-- Hero Slider - Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div> <!-- end swipper-wrapper -->
+            </div> <!-- end hero swiper -->
+        </section>
+
+        <!-- Homepage - Missions Slider -->
+        <section class="missions-slider-container">
+            <div class="container">
+                <div id="missions-slider" class="missions-swiper">
+                    <!-- Additional wrapper -->
+                    <div class="missions-slider-content swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/graph-report-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Conseil<br>et gestion</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/calculator-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Expertise comptable</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/search-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Audit Commissariat</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/euro-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Fiscalité</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/human-resources-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Paie & social</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/justice-scale-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Juridique</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/brainstorm-idea-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Création d'entreprise</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                        <div class="mission-slide swiper-slide">
+                            <div class="mission-slide-card flex-cc">
+                                <div class="mission-logo">
+                                    <img src="./assets/img/icons/desk-classroom-icon.svg" alt="icone avec graphiques de couleurs">                                    
+                                </div>
+                                <div class="mission-info">
+                                    <p>Formation</p>
+                                </div>
+                            </div>
+                        </div> <!-- end swiper-slide -->
+                    </div> <!-- end swipper-wrapper -->
+                    <!-- Navigation-->
+                    <div class="missions-btn-next"></div>
+                    <div class="missions-btn-prev"></div>
+                </div>
             </div>
         </section>
 
-        <!-- Missions Slider -->
-        <section class="missions-slider-container">
-
-        </section>
+        <!-- Homepage - About us -->
 
     </main>
     
-    <!-- GSAP Scripts-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
-    <!-- Main script-->
-    <script src="./assets/js/main.js"></script>
+    <!-- Swiper JS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Main script for the app-->
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>

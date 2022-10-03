@@ -1,0 +1,52 @@
+// Missions Slider - Swiper CSS styles
+
+.missions-slider-container {
+    background-color: $zodiac-blue-color;
+}
+
+.missions-swiper {
+    padding : 35px 55px;
+    overflow: hidden;
+}
+
+.mission-logo {
+    padding: 23.5px 54.5px;
+}
+
+.mission-logo img {
+    width: 55px;
+}
+
+.mission-slide-card {
+    position: relative;
+    width: 16.4rem;
+    height: 20.8rem;
+    border-radius: 15px;
+    background-color: $white-color;
+    justify-content: space-between;
+    color: $zodiac-blue-color;
+}
+
+.mission-slide-card::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 5.5rem;
+    height: .6rem;
+    background-color: $romance-color;
+    transform: translateX(-50%);
+}
+
+.mission-info {
+    padding: 24px 26.5px;
+}
+
+.mission-info > p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+

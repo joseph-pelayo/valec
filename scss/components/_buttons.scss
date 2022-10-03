@@ -9,8 +9,8 @@
     font-weight: $btn-font-weight;
     line-height: $btn-line-height;
     font-size: $btn-font-size;
-    @include button-color-variant($btn-font-color, $btn-bg-color);
-    @include button-border-variant($btn-border-width, $btn-border-color, $btn-border-radius);
+    @include button-color-variant($btn-font-color, $btn-primary-color);
+    @include button-border-variant($btn-border-width, $btn-border-primary-color, $btn-border-radius);
     cursor: pointer;
 }
 
@@ -19,15 +19,15 @@
     margin-right: 16px;
 }
 
-.btn.recruit-btn {
+.btn.primary-btn {
     padding: 5px 8.2px;
-    background-color: $btn-bg-color;
+    background-color: $btn-primary-color;
 }
 
-.btn.cnx-btn {
+.btn.secondary-btn {
     padding: 5px 10px;
-    background-color: $vivid-burgundy-color;
-    border-color: $vivid-burgundy-color;
+    background-color: $btn-secondary-color;
+    border-color: $btn-secondary-color;
 }
 
     
