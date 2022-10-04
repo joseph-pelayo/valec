@@ -81,6 +81,155 @@ a {
   font-size: 24px;
 }
 
+.subtitle-section {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #a6192e;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.title-section {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-section::after {
+  position: absolute;
+  content: "";
+  width: 5.5rem;
+  height: 0.3rem;
+  bottom: -1.4rem;
+  left: 50%;
+  background-color: #000000;
+  transform: translateX(-50%);
+}
+
+.section-desc-summary {
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 6.8rem;
+  margin-bottom: 5.2rem;
+}
+
+.section-desc-summary span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-employee-content {
+  margin: 12.2rem 5.5rem 5.2rem;
+  padding: 3.2rem 5.8rem 5.7rem 8rem;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  column-gap: 8rem;
+}
+
+.employee-picture {
+  width: 25.1rem;
+}
+
+.logo-croec {
+  width: 22.9rem;
+}
+
+.about-employee-content figure {
+  padding: 4rem 5.6rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.9rem;
+  box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.about-employee-content figcaption {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-employee-content img {
+  width: 22.9rem;
+}
+
+.employee-desc header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  position: relative;
+}
+
+.employee-desc h4::before {
+  content: "";
+  position: absolute;
+  width: 3.5rem;
+  height: 0.1rem;
+  top: 7.5px;
+  left: 0;
+  background-color: #10224a;
+}
+
+.employee-desc h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 4.7rem;
+}
+
+.employee-desc header > p:nth-child(2) {
+  font-family: "Lato", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.employee-desc header > p:last-child {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #a6192e;
+}
+
+.employee-objective {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 2.8rem;
+  margin: 2.6rem 0;
+}
+
+.employee-details p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-bottom: 2.3rem;
+  text-align: justify;
+}
+
+.is_uppercase {
+  text-transform: uppercase;
+}
+
 .container {
   padding: 0 55px;
 }
