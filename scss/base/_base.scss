@@ -90,14 +90,16 @@ a {
 }
 
 .about-employee-content figure {
-    padding: 4rem 5.6rem;
-    background-color: $white-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 1.9rem;
+    padding: 4rem 5.6rem;
+    background-color: $white-color;
     box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -122px;
 }
 
 .about-employee-content figcaption {
@@ -153,7 +155,7 @@ a {
 
 .employee-objective {
     font-family: $font-family-primary;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     font-style: italic;
     line-height: 2.8rem;
@@ -172,4 +174,6 @@ a {
 .is_uppercase {
     text-transform: uppercase;
 }
+
+
 

@@ -30,5 +30,24 @@
     border-color: $btn-secondary-color;
 }
 
+.about-employee-content .btn {
 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 7px;
+    width: 18.6rem;
+    padding: 10.5px 10px;
+    font-family: $font-family-primary;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white-color;
+    background-color: $vivid-burgundy-color;
+    border-color: 1px solid $vivid-burgundy-color;
+    border-radius: 3px;
+}
+
+.about-employee-content .icon-btn {
+    font-size: 16px;
+}
     

@@ -147,14 +147,16 @@ a {
 }
 
 .about-employee-content figure {
-  padding: 4rem 5.6rem;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 1.9rem;
+  padding: 4rem 5.6rem;
+  background-color: #ffffff;
   box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -122px;
 }
 
 .about-employee-content figcaption {
@@ -210,7 +212,7 @@ a {
 
 .employee-objective {
   font-family: "Lato", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 700;
   font-style: italic;
   line-height: 2.8rem;
@@ -426,6 +428,26 @@ h1, h2, h3 {
   padding: 5px 10px;
   background-color: #a6192e;
   border-color: #a6192e;
+}
+
+.about-employee-content .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 7px;
+  width: 18.6rem;
+  padding: 10.5px 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #a6192e;
+  border-color: 1px solid #a6192e;
+  border-radius: 3px;
+}
+
+.about-employee-content .icon-btn {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
