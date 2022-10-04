@@ -73,7 +73,7 @@ a {
 
 .about-employee-content {
     margin: 12.2rem 5.5rem 5.2rem ;
-    padding: 3.2rem 5.8rem 5.7rem 8rem;
+    padding: 3.2rem 5.8rem 0 8rem;
     background-color: $light-grey;
     display: flex;
     justify-content: space-around;
@@ -83,10 +83,7 @@ a {
 
 .employee-picture {
     width: 25.1rem;
-}
-
-.logo-croec {
-    width: 22.9rem;
+    height: 32.6rem;
 }
 
 .about-employee-content figure {
@@ -110,13 +107,15 @@ a {
     text-decoration: underline;
 }
 
-.about-employee-content img {
+.about-employee-content logo-croec {
     width: 22.9rem;
+    height: 3.8rem;
 }
 
 .employee-desc header {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     row-gap: 1rem;
     position: relative;
 }
@@ -143,7 +142,6 @@ a {
     font-family: $font-family-primary;
     font-size: 3.2rem;
     font-weight: 700;
-    margin: 1rem 0;
 }
 
 .employee-desc header > p:last-child {
@@ -155,7 +153,7 @@ a {
 
 .employee-objective {
     font-family: $font-family-primary;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 700;
     font-style: italic;
     line-height: 2.8rem;
