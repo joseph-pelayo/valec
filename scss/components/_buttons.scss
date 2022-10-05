@@ -1,7 +1,26 @@
 // ------------------------------------------------------------------------------------
 // This file contains all styles related to the button component
 // ------------------------------------------------------------------------------------
+// .recruit-btn {
 
+//     display: inline-flex;
+//     // justify-content: flex-start;
+//     align-items: center;
+//     column-gap: 1.6rem;
+//     // width: 16.2rem;
+//     padding: 5px 8.2px;
+//     font-family: $font-family-primary;
+//     font-size: 16px;
+//     font-weight: 700;
+//     color: $white-color;
+//     background-color: $romance-color;
+//     border: 1px solid $romance-color;
+//     border-radius: 3px;
+//     cursor: pointer;
+//     white-space: nowrap;
+//     line-height: 0;
+
+// }
 
 .btn {
     @extend %flex-row-center;
