@@ -76,3 +76,24 @@ valueDisplays.forEach((item) => {
     }, duration);
 
 });
+
+// // Initializing Customers Slider
+const customers_swiper = new Swiper('#customers-slider', {
+
+    // Custom options
+    direction: 'horizontal',
+    slidesPerView: 6,
+    spaceBetween: 50,
+    loop: true,
+
+    // Autoplay parameters
+    autoplay: {
+
+        // Transition delay between each slide
+        delay: 5000,
+
+        // Autoplay will be restarted automatically after user interactions
+        disableOnInteraction: true
+    },
+ 
+});

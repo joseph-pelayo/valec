@@ -431,6 +431,34 @@ h1, h2, h3 {
   column-gap: 28px;
 }
 
+.customers-slider-container {
+  background-color: #ffffff;
+  padding: 17px 0 14px;
+}
+
+.customers-slider-container h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #55acee;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.customers-swiper {
+  padding: 0 55px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.customers-slider-container img {
+  width: 16.8rem;
+}
+
+.customers-slider-content {
+  align-items: center;
+}
+
 .hero-slide img {
   height: 53.8rem;
   object-fit: cover;
