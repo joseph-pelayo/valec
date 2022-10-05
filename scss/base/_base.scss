@@ -193,7 +193,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    // flex-wrap: wrap;
 }
 
 .data-container {
@@ -232,6 +231,89 @@ a {
     font-weight: 700;
     text-align: center;
 }
+
+// Missions Details Section
+
+.missions-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 43px 30px;
+    padding: 0 55px;
+    margin: 68px 36px;
+}
+
+.missions-intro {
+    width: 57.8rem;
+    padding-right: 8.8rem;
+}
+
+.missions-intro p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777777;
+}
+
+.missions-intro p:nth-child(1) {
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.missions-intro h4 {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.missions-intro p:nth-child(3) {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 25.6px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.mission-card {
+    width: 27.4rem;
+    padding: 21px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    row-gap: 15px;
+}
+
+.mission-card img {
+    width: 55px;
+}
+
+.mission-card-title {
+    height: 8.8rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: $vivid-burgundy-color;
+    text-transform: uppercase;
+}
+
+.mission-card-info {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color: $black-color;
+    padding: 0 20px;
+}
+
+
+
 
 
 

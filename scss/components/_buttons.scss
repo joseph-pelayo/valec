@@ -69,4 +69,40 @@
 .about-employee-content .icon-btn {
     font-size: 16px;
 }
-    
+
+
+.mission-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: $black-color;
+    padding: 10px 39px;
+    background-color: #fff;
+    border: 1px solid $vivid-burgundy-color;
+    border-radius: 50px;
+}
+
+.missions-content .btn {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 7px;
+    width: 19rem;
+    padding: 10.5px 10px;
+    font-family: $font-family-primary;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white-color;
+    background-color: $vivid-burgundy-color;
+    border-color: 1px solid $vivid-burgundy-color;
+    border-radius: 10px;
+}
+
+.mission-btn:hover {
+    background-color: $vivid-burgundy-color;
+    color: #fff;
+}
