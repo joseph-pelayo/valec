@@ -53,3 +53,26 @@ const missions_swiper = new Swiper('#missions-slider', {
     },
   
 });
+
+// Enabling data keys animation
+let valueDisplays = document.querySelectorAll('.data-value');
+// console.log(valueDisplays);
+let interval = 4000;
+
+valueDisplays.forEach((item) => {
+
+    let startValue = 0;
+    let endValue = parseInt(item.getAttribute("data-key-value"));
+    console.log(endValue);
+    let duration = Math.floor(interval / endValue);
+    let counter = setInterval(function () {
+
+        startValue += 1;
+        item.textContent = startValue;
+        if (startValue == endValue) {
+            clearInterval(counter);
+        }
+
+    }, duration);
+
+});
